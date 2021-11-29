@@ -40,7 +40,7 @@ namespace MCSharp.Heartbeat
         public WOMHeartbeat ()
         {
             _timeout = 45000; // Beat every 45 seconds
-            serverURL = "http://direct.worldofminecraft.com/hb.php";
+            serverURL = "http://classicube.net/heartbeat.jsp";
             staticPostVars = "port=" + Properties.ServerPort +
                              "&max=" + Properties.MaxPlayers +
                              "&name=" + Uri.EscapeDataString(Properties.ServerName) +

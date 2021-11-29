@@ -58,7 +58,7 @@ namespace MCSharp.Heartbeat
         public MinecraftHeartbeat ()
         {
             _timeout = 30000; // Beat every 30 seconds
-            serverURL = "http://www.minecraft.net/heartbeat.jsp";
+            serverURL = "http://www.betacraft.uk/heartbeat.jsp";
             staticPostVars = "port=" + Properties.ServerPort +
                              "&max=" + Properties.MaxPlayers +
                              "&name=" + Uri.EscapeDataString(Properties.ServerName) +
